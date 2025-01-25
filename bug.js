@@ -1,0 +1,1 @@
+This React Native code uses AsyncStorage to store a value, but it attempts to access the value synchronously using AsyncStorage.getItem().  AsyncStorage is asynchronous, so this will likely lead to the value being undefined or null if getItem is called before the value is actually stored.
