@@ -1,0 +1,1 @@
+This corrected version utilizes `async/await` to ensure that the value is retrieved from AsyncStorage before being used. The `await` keyword pauses execution until the promise returned by `getItem` resolves, guaranteeing that the value is available.
